@@ -1,7 +1,7 @@
 const productos = [
     {
         texto: "Tomacorriente Q200",
-        img: "/img/dasd.png"
+        img: "img/dasd.png"
     }, {
         texto: "Bombilla - Q300",
         img: "img/Bombilla-Incandescente-100W-Opaca-Sylvania_97df9c5.png"
@@ -16,10 +16,10 @@ const productos = [
     },
     {
         texto: "Flaponera Q200",
-        img: "/img/788174_1.png"
+        img: "img/788174_1.png"
     }, {
         texto: "CortaFuego - Q300",
-        img: "/img/FV-AA.png"
+        img: "img/FV-AA.png"
     }, 
 ]
 
@@ -66,3 +66,6 @@ function retrocederPantalla(){
   
    
 }
+
+//TODO
+//Terminar el contador
