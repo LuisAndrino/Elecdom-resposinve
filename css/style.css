@@ -242,14 +242,14 @@ h1{
         }
 
         .main-products {
-            width: 90%;
+            width: 95%;
             height: 75vw;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-evenly;
             background-color: #ebcaab;
-            font-size: 12px;
+            font-size: 8px;
             margin: 0 auto;
             border: 1px solid;
             border-radius: 5%;
