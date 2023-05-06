@@ -9,13 +9,35 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <img class="nav-menu" src="img/menu.png" alt="menu" / >
+        <input type="checkbox" id="check">
+        <label class="nav-menu" for="check">
+            <img class="nav-menu"  src="img/menu.png" alt="menu" / >
+        </label>
+
+        <ul class="nav-mobile">
+            <label for="check"><img class="close-img" src="img/close.png" alt="close"></label>
+            <a href="#">
+                <li>Inicio</li>
+            </a>
+            <a href="#">
+                <li>Productos</li>
+                
+            </a>
+            <a href="#">
+                <li>Tiendas</li>
+            </a>
+            <a href="#">
+                <li>Contacto</li>
+            </a>
+        </ul>
         <ul class="nav-list">
             <li>Inicio</li>
             <li>Productos</li>
             <li>Tiendas</li>
             <li>Contacto</li>
         </ul>
+
+        
         <section class="icons">    
             <a href="#" class="nav-icons"><img src="img/user.png" alt="user"></a>
             <a href="#" class="nav-icons"><img src="img/cart.png" alt="cart"></a>

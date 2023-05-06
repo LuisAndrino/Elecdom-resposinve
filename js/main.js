@@ -29,6 +29,8 @@ const productos = [
     }, 
 ]
 
+
+
 function elementos(productos){
     //Creando Elementos HTML
     const divMainItems = document.createElement("div");
