@@ -242,14 +242,17 @@ h1{
         }
 
         .main-products {
-            width: 100%;
-            height: 50vw;
+            width: 90%;
+            height: 75vw;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-evenly;
             background-color: #ebcaab;
-            font-size: 8px;
+            font-size: 12px;
+            margin: 0 auto;
+            border: 1px solid;
+            border-radius: 5%;
         }
 
         .main-products #editar {
@@ -303,7 +306,7 @@ h1{
         }
         
         .icons-next{
-            width: 10%;
+            width: 8%;
             height: 20%;
             display: inline-block;
         }
@@ -313,7 +316,7 @@ h1{
             width: 100px;
             height: 25px;
             background-color: #ffcebd;
-            font-size: 8px;
+            font-size: 10px;
         }
     
         .main-products .main-items {
