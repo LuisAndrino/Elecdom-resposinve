@@ -117,4 +117,6 @@ elementos(productos);
 
 
 //TODO:
-//Terminar el contador
+//Arreglar la vista mobile
+//Empezar la vista Tablet
+//Cambiar el color
