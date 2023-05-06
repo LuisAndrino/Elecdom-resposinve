@@ -203,12 +203,41 @@ h1{
             align-items: center;
             justify-content: space-evenly;
             background-color: #ebcaab;
-            font-size: 15px;
+            font-size: 8px;
         }
 
         .main-products #editar {
             display: flex;
         }
+
+        
+        .transition{
+            animation: moverDerecha 0.2s alternate-reverse;
+        }
+
+        @keyframes moverDerecha {
+            from{
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(10px);
+            }
+        }
+
+        .transition-l {
+            animation: moverIzq 0.2s alternate-reverse;
+        }
+
+        @keyframes moverIzq {
+            from {
+                transform: translateX(0);
+            }
+
+            to {
+                transform: translateX(-10px);
+            }
+        }
+
 
         #primero, #segundo, #tercero, #cuarto, #quinto, #sexto {
             display: none;
@@ -238,6 +267,7 @@ h1{
             width: 100px;
             height: 25px;
             background-color: #ffcebd;
+            font-size: 8px;
         }
     
         .main-products .main-items {
