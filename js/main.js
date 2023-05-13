@@ -53,7 +53,7 @@ function elementos(productos){
     let contador = 1;
     cambiar.addEventListener("click", cambiarPantalla);
     function cambiarPantalla(){
-        
+        //transiciones 
         divMainItems.classList.remove("transition-l");
         divMainItems.classList.add("transition");
 
@@ -81,7 +81,7 @@ function elementos(productos){
     retroceder.addEventListener("click", retrocederPantalla);
 
     function retrocederPantalla() {
-
+        //transiciones
         divMainItems.classList.remove("transition");
         divMainItems.classList.add("transition-l");
 
